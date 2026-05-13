@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 
 export default function About() {
   return (
-    <section className="py-24 bg-neutral-900 border-t border-neutral-800">
+    <section className="py-24 bg-black border-t border-neutral-900">
       <div className="container mx-auto px-6">
         <div className="max-w-4xl mx-auto text-center space-y-8">
           <motion.h2

@@ -16,9 +16,9 @@ export default function Navbar() {
           />
           <span className="text-xl font-bold tracking-tight">Manify Media</span>
         </Link>
-        <Link href="#contact">
-          <Button variant="default">Start Your Project</Button>
-        </Link>
+        <Button asChild variant="default">
+          <Link href="#contact">Start Your Project</Link>
+        </Button>
       </div>
     </nav>
   );

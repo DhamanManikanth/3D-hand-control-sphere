@@ -35,16 +35,16 @@ export default function Hero() {
             transition={{ duration: 0.5, delay: 0.2 }}
             className="flex flex-col sm:flex-row items-center justify-center gap-4"
           >
-            <Link href="#contact">
-              <Button size="lg" className="w-full sm:w-auto text-base">
+            <Button asChild size="lg" className="w-full sm:w-auto text-base">
+              <Link href="#contact">
                 Get a Free Proposal
-              </Button>
-            </Link>
-            <Link href="#services">
-              <Button size="lg" variant="outline" className="w-full sm:w-auto text-base">
+              </Link>
+            </Button>
+            <Button asChild size="lg" variant="outline" className="w-full sm:w-auto text-base">
+              <Link href="#services">
                 View Our Services
-              </Button>
-            </Link>
+              </Link>
+            </Button>
           </motion.div>
         </motion.div>
       </div>

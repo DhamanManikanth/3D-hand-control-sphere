@@ -38,7 +38,7 @@ const works = [
 
 export default function WorkSamples() {
   return (
-    <section className="py-24 bg-neutral-950">
+    <section className="py-24 bg-black border-t border-neutral-900">
       <div className="container mx-auto px-6">
         <div className="mb-16">
           <h2 className="text-4xl md:text-5xl font-bold tracking-tight mb-4">

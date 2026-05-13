@@ -5,7 +5,7 @@ import { Button } from "./ui/button";
 
 export default function Contact() {
   return (
-    <section id="contact" className="py-24 bg-neutral-950">
+    <section id="contact" className="py-24 bg-black border-t border-neutral-900">
       <div className="container mx-auto px-6 max-w-xl">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
@@ -26,7 +26,7 @@ export default function Contact() {
               <input
                 id="name"
                 type="text"
-                className="w-full bg-neutral-950/50 border border-neutral-800 rounded-lg px-4 py-3 text-neutral-50 placeholder:text-neutral-600 focus:outline-none focus:ring-2 focus:ring-neutral-700 transition-all"
+                className="w-full bg-black/50 border border-neutral-800 rounded-lg px-4 py-3 text-neutral-50 placeholder:text-neutral-600 focus:outline-none focus:ring-2 focus:ring-red-600 focus:border-transparent transition-all"
                 placeholder="John Doe"
               />
             </div>
@@ -36,7 +36,7 @@ export default function Contact() {
               <input
                 id="email"
                 type="email"
-                className="w-full bg-neutral-950/50 border border-neutral-800 rounded-lg px-4 py-3 text-neutral-50 placeholder:text-neutral-600 focus:outline-none focus:ring-2 focus:ring-neutral-700 transition-all"
+                className="w-full bg-black/50 border border-neutral-800 rounded-lg px-4 py-3 text-neutral-50 placeholder:text-neutral-600 focus:outline-none focus:ring-2 focus:ring-red-600 focus:border-transparent transition-all"
                 placeholder="john@example.com"
               />
             </div>
@@ -46,7 +46,7 @@ export default function Contact() {
               <textarea
                 id="message"
                 rows={4}
-                className="w-full bg-neutral-950/50 border border-neutral-800 rounded-lg px-4 py-3 text-neutral-50 placeholder:text-neutral-600 focus:outline-none focus:ring-2 focus:ring-neutral-700 transition-all resize-none"
+                className="w-full bg-black/50 border border-neutral-800 rounded-lg px-4 py-3 text-neutral-50 placeholder:text-neutral-600 focus:outline-none focus:ring-2 focus:ring-red-600 focus:border-transparent transition-all resize-none"
                 placeholder="What are you building?"
               />
             </div>
